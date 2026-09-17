@@ -8,7 +8,7 @@ Not sure if this has been reported elsewhere, other vulnerabilities are similar 
 Not sure if you need to auth, as the box had no authentication. Although with the other vulnerabilities authentication is useless for this version anyway.
 
 In a ZoneMinder installation.
-## XSS
+## Stored XSS
 - Go to /index.php?view=options&tab=web
 - Set WEB_TITLE_PREFIX to ZM </title><script>alert(1)</script>
 - Save
